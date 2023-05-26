@@ -1,12 +1,12 @@
 {
-  "name": "jinjahtml",
-  "displayName": "Better Jinja",
+  "name": "dragon-jinja",
+  "displayName": "Dragon Jinja",
   "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML, Ruby and LaTeX templates",
-  "version": "0.20.0",
-  "publisher": "samuelcolvin",
-  "author": "Samuel Colvin",
+  "version": "0.21.0",
+  "publisher": "hongquan",
+  "author": "Nguyễn Hồng Quân <ng.hong.quan@gmail.com>",
   "engines": {
-    "vscode": "^1.22.0"
+    "vscode": "^1.75.0"
   },
   "license": "MIT",
   "icon": "icon.png",
@@ -41,9 +41,6 @@
   "devDependencies": {
     "prettier": "2.7.1"
   },
-  "activationEvents": [
-    "onLanguage:jinja-html"
-  ],
   "contributes": {
     "languages": [
       {
