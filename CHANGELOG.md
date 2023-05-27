@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.21.2] - 2023-05-27
+
+- Fix detecting HTML attribute name and value.
+
 ## [0.21.1] - 2023-05-27
 
  - Fix project Git URL.
