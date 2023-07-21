@@ -141,7 +141,7 @@
   ],
   "repository": {
     "tag-generic-attribute": {
-      "match": "\\b([a-zA-Z\\-:]+)",
+      "match": "\\b([a-zA-Z\\-:_]+)",
       "name": "entity.other.attribute-name.html"
     },
     "string-double-quoted": {

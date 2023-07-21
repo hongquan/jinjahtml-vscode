@@ -25,5 +25,6 @@
     {{ inline_css('inline.css') }}
     <a href="{{ url('page') }}">Link 1</a>
     <a href='{{ url("page") }}'>Link 2</a>
+    <a href='#' {% if no_tracting %}rel='noreferrer'{% endif %}></a>
   </body>
 </html>
