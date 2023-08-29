@@ -4,6 +4,8 @@ Syntax highlighting for jinja(2) including HTML, Markdown, YAML and other templa
 
 This is a fork from Samuel Colvin's [Better Jinja](https://github.com/samuelcolvin/jinjahtml-vscode) extension. I made a fork because the original project author seems not to actively review the PRs.
 
+I also learn from [Django](https://github.com/vscode-django/vscode-django) extension to parse Jinja expression inside HTML attribute values.
+
 ![IDE](https://raw.githubusercontent.com/hongquan/jinjahtml-vscode/main/screenshot.png)
 
 ## Languages:

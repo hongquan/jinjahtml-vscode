@@ -10,7 +10,7 @@
       "include": "source.jinja"
     },
     {
-      "begin": "(</?)((?i:address|blockquote|dd|div|dl|dt|fieldset|form|frame|frameset|h1|h2|h3|h4|h5|h6|iframe|noframes|object|ol|p|ul|applet|center|dir|hr|menu|pre)\\b)",
+      "begin": "(</?)((?i:address|article|blockquote|body|dd|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h1|h2|h3|h4|h5|h6|head|header|iframe|main|nav|noframes|object|ol|p|ul|applet|center|dir|hr|menu|pre)\\b)",
       "end": "(>)",
       "name": "meta.tag.block.any.html",
       "patterns": [
@@ -141,7 +141,7 @@
   ],
   "repository": {
     "tag-generic-attribute": {
-      "match": "\\b([a-zA-Z\\-:_]+)",
+      "match": "\\b([a-zA-Z\\-:_@]+)",
       "name": "entity.other.attribute-name.html"
     },
     "string-double-quoted": {
